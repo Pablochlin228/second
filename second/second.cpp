@@ -1,12 +1,20 @@
-// second.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+using namespace std;
 
+class Point
+{
+    int x;
+    int y;
+public:
+    int Init()
+    {
+
+    }
+};
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
+    cout << "Hello World!\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
